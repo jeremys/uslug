@@ -32,11 +32,10 @@ Generate a slug for the string passed.
 __Arguments__
 
 * string - The string you want to slugify.
-* options - An optional object that can contain:
-    allowedChars: a String of chars that you want to be whitelisted. 
-                  Default: '-_~'.
-    lower: a Boolean to force to lower case the slug. Default: true.
-    spaces: a Boolean to allow spaces. Default: false.
+* options - An optional object that can contain:  
+    * allowedChars: a String of chars that you want to be whitelisted. Default: '-_~'.  
+    * lower: a Boolean to force to lower case the slug. Default: true.  
+    * spaces: a Boolean to allow spaces. Default: false.  
 
 
 ## License
