@@ -1,6 +1,6 @@
 {
   "name" : "uslug",
-  "version" : "1.0.1",
+  "version" : "1.0.2",
   "description" : "A permissive slug generator that works with unicode.",
   "author": "Jeremy Selier <jerem.selier@gmail.com>",
   "dependencies": {
