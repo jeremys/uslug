@@ -32,3 +32,5 @@ for (var t in tests) {
   var test = tests[t];
   uslug(test[0]).should.equal(test[1]);
 }
+
+uslug('qbc,fe', { allowedChars: 'q' }).should.equal('qbcfe');
