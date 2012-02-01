@@ -1,1 +1,1 @@
-module.exports = require('./lib/slugify');
+module.exports = require('./lib/uslug');
