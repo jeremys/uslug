@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# The regexp to print at the end
+# The regexp to print at the end.
 REGEXP=""
 
 # Where the range started.
@@ -22,7 +22,7 @@ function update_regexp {
 # Read each line as a hex value.
 while read -r HEX
 do
-  # Initialize RANGE_START AND LAST
+  # Initialize RANGE_START and LAST.
   if [[ $RANGE_START == -1 && $LAST == -1 ]]
   then
     RANGE_START=$HEX
@@ -44,7 +44,7 @@ done
 # After EOF, check updating the regexp one more time.
 update_regexp
 
-# Get rid of the initial separator
+# Get rid of the initial separator.
 REGEXP="${REGEXP:1}"
 
 echo "/$REGEXP/"
