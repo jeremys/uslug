@@ -7,6 +7,7 @@ var word1 = [word0, word0].join('-');
 var word2 = [word0, word0].join(' - ');
 
 var tests = [
+  ['', ''],
   ['The \u212B symbol invented by A. J. \u00C5ngstr\u00F6m (1814, L\u00F6gd\u00F6, \u2013 1874) denotes the length 10\u207B\u00B9\u2070 m.', 'the-å-symbol-invented-by-a-j-ångström-1814-lögdö-1874-denotes-the-length-1010-m'],
   ['Быстрее и лучше!', 'быстрее-и-лучше'],
   ['xx x  - "#$@ x', 'xx-x-x'],
