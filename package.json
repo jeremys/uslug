@@ -4,7 +4,7 @@
   "description": "A permissive slug generator that works with unicode.",
   "author": "Jeremy Selier <jerem.selier@gmail.com>",
   "dependencies": {
-    "node-emoji": "^1.10.0",
+    "node-emoji": "^1.11.0",
     "unorm": ">= 1.0.0"
   },
   "devDependencies": {
